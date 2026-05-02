@@ -1,0 +1,30 @@
+{
+    "name": "campus-notification-microservice",
+    "version": "1.0.0",
+    "description": "Campus Notifications Microservice using Node.js, Express, MySQL, and Queue (Bull)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "mysql",
+        "notifications",
+        "microservice"
+    ],
+    "author": "Ragul",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.15.2",
+        "bull": "^4.10.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.2",
+        "ioredis": "^5.3.2",
+        "mysql2": "^3.9.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.0"
+    }
+}
